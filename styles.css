@@ -34,4 +34,39 @@ a:hover {
 	color: #d0d3d9;
 }
 
-/* End of Header section */
+/* Hero section */
+
+.hero {
+	background-color: #1F2937;
+	padding: 16px
+}
+
+.hero-main {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.hero-second {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.signup-button {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 6px 32px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.signup-button:hover {
+	background-color: #357ae7;
+	color: #E5E7EB;
+}
+
+.hero-img {
+	height: 300px;
+	width: 200px;
+}
