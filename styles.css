@@ -96,3 +96,21 @@ a:hover {
 	color: #1F2937;
 	font-size: 18px;
 }
+
+/* Qoute section */
+
+.qoute-section {
+	background-color: #E5E7EB;
+}
+
+.qoute-body {
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.qoute-author {
+	font-size: 18px;
+	font-weight: 700;
+}
