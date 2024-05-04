@@ -114,3 +114,31 @@ a:hover {
 	font-size: 18px;
 	font-weight: 700;
 }
+
+/* Call to action section */
+
+.cta-card {
+	background-color: #3882F6;
+	border-radius: 10px;
+}
+
+.cta-main-text {
+	font-size: 28px;
+	font-weight: 600;
+	color: #F9FAF8;
+}
+
+.cta-subtext {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.cta-button {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 6px 32px;
+	border-radius: 10px;
+	border: 2px solid #F9FAF8;
+	font-size: 18px;
+	font-weight: 600;
+}
