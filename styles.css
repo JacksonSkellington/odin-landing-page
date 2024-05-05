@@ -142,3 +142,14 @@ a:hover {
 	font-size: 18px;
 	font-weight: 600;
 }
+
+/* Footer section */
+
+footer {
+	background-color: #1F2937;
+}
+
+.footer-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
