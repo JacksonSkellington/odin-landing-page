@@ -11,6 +11,8 @@ body {
 	width: 75vw;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 32px;
+	margin-bottom: 64px;
 }
 
 /* Header section */
@@ -98,7 +100,11 @@ a:hover {
 
 .info-section {
 	background-color: #F9FAF8;
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 64px;
 }
 
 .info-header {
@@ -106,11 +112,12 @@ a:hover {
 	font-size: 48px;
 	font-weight: 700;
 	padding: 32px;
+	text-align: center;
 }
 
 .card-graphic {
-	height: 144px;
-	width: 144px;
+	height: 150px;
+	width: 150px;
 	border-radius: 10px;
 	border: 5px solid #3882F6;
 }
@@ -118,6 +125,17 @@ a:hover {
 .info-subtext {
 	color: #1F2937;
 	font-size: 18px;
+	width: 150px;
+	text-wrap: wrap;
+	text-align: center;
+}
+
+.card-container {
+	display: flex;
+	width: 75vw;
+	justify-content: space-between;
+	margin-top: 32px;
+	margin-bottom: 64px;
 }
 
 /* Qoute section */
