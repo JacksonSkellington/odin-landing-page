@@ -10,7 +10,7 @@ body {
 .content-container {
 	width: 75vw;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 /* Header section */
@@ -49,7 +49,18 @@ a:hover {
 
 .hero {
 	background-color: #1F2937;
-	padding: 16px
+	padding: 16px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	display: flex;
+	justify-content: center;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	justify-content: center;
 }
 
 .hero-main {
@@ -70,6 +81,7 @@ a:hover {
 	border-radius: 10px;
 	font-size: 18px;
 	font-weight: 600;
+	align-self: flex-start;
 }
 
 .signup-button:hover {
