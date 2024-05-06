@@ -7,11 +7,19 @@ body {
 	font-size: 18px;
 }
 
+.content-container {
+	width: 75vw;
+	display: flex;
+	justify-content: space-around;
+}
+
 /* Header section */
 
 .header {
 	background-color: #1F2937;
 	padding: 16px;
+	display: flex;
+	justify-content: center;
 }
 
 .logo {
@@ -22,6 +30,9 @@ body {
 
 .header-links {
 	list-style-type: none;
+	margin: 0px;
+	display: flex;
+	gap: 16px;
 }
 
 a {
