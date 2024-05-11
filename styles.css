@@ -166,9 +166,20 @@ a:hover {
 
 /* Call to action section */
 
+.cta-section {
+	padding-left: 25vw;
+	padding-right: 25vw;
+	padding: 64px 128px;
+}
+
 .cta-card {
 	background-color: #3882F6;
 	border-radius: 10px;
+	padding: 64px 128px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 16px;
 }
 
 .cta-main-text {
@@ -196,6 +207,8 @@ a:hover {
 
 footer {
 	background-color: #1F2937;
+	padding: 32px;
+	text-align: center;
 }
 
 .footer-text {
